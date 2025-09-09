@@ -49,6 +49,13 @@ Este módulo crea los siguientes recursos:
 - Repositorio ECR (`aws_ecr_repository`)
 - Política de ciclo de vida del repositorio (`aws_ecr_lifecycle_policy`)
 
+## Outputs
+
+| Nombre             | Descripción                           |
+| ------------------ | ------------------------------------- |
+| ecr_repository_url | URL del repositorio ECR creado        |
+| ecr_repository_arn | ARN del repositorio ECR creado        |
+
 ## Ejemplo de ejecución
 
 ```bash
