@@ -18,3 +18,9 @@ variable "tags" {
   description = "Common tags to apply to all resources"
   type        = map(string)
 }
+
+variable "repository_policy" {
+  description = "The repository policy JSON document. If null, no policy is attached."
+  type        = string
+  default     = null
+}
